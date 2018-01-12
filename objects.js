@@ -9,7 +9,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName;
+  returq Object.assign({}, delete playlist.artistName)
 }
 // function updateObjectWithObject(targetObject, updatesObject) {
 //   return Object.assign({}, targetObject, updatesObject)
